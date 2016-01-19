@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ResourceFiles">
+      <UniqueIdentifier>{00A967FA-6C69-E330-35A4-2CAEA123280D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{EFAC8DF2-5B8C-0C8E-64A4-9764D00273EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\ResourceFiles\dpiaware.manifest">
+      <Filter>ResourceFiles</Filter>
+    </None>
+    <None Include="..\src\Shaders\CoarseCullingCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\CullingCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\FullscreenQuad.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\InitDeadList.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\InitSortArgsCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\ParticleEmit.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\ParticleRender.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\ParticleRenderQuad.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\ParticleSimulation.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\ParticleSort.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\RenderScene.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\SortCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\SortInnerCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\SortStepCS2.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\Terrain.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\src\Shaders\TiledRendering.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ParticleHelpers.h" />
+    <ClInclude Include="..\src\ParticleSystem.h" />
+    <ClInclude Include="..\src\ResourceFiles\resource.h">
+      <Filter>ResourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shaders\Globals.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shaders\ShaderConstants.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SortLib.h" />
+    <ClInclude Include="..\src\Terrain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\GPUParticleSystem.cpp" />
+    <ClCompile Include="..\src\GPUParticles11.cpp" />
+    <ClCompile Include="..\src\SortLib.cpp" />
+    <ClCompile Include="..\src\Terrain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\ResourceFiles\GPUParticles11.rc">
+      <Filter>ResourceFiles</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
